@@ -11,10 +11,10 @@ This is my BoilerPlate for a project who use JADE and SASS.
 ```
 /myAwesomeProject
     | index.jade
-    | 404.jade
     | /assets
     |    ├── /images
     |    ├── /font
+    |    ├── /videos
     | /css
     |    ├── reset.css
     |    ├── grid.css
@@ -23,6 +23,7 @@ This is my BoilerPlate for a project who use JADE and SASS.
     |    ├── /content
     |    ├── mixins.jade
     |    ├── data.jade
+    |    ├── var.jade
     | /sass
     |    ├── app.sass
     |    ├── /sections
@@ -30,8 +31,9 @@ This is my BoilerPlate for a project who use JADE and SASS.
     |    |    ├── var.sass
     |    |    ├── mixins.sass
     |    |    ├── import.sass
+    |    |    ├── base.sass
     |    |    ├── animations.sass
-    |    |    ├── button.sass
+    |    |    ├── buttons.sass
     |    |    ├── blocks.sass
     |    |    ├── font.sass
     | /scripts
