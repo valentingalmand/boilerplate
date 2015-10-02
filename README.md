@@ -1,41 +1,43 @@
-# BoilerPlate for Jade and Sass
-This is my BoilerPlate for a project who use JADE and SASS.
+# Boilerplate for Jade and Sass
+This is my Boilerplate for a project who use JADE and SASS.
 
-## Infos
-
-- reset.css | http://meyerweb.com/eric/tools/css/reset/
-- grid.css | This is actually the bootstrap grid system
-
-## Tree View
-
+### Tree View
 ```
 /myAwesomeProject
     | index.jade
-    | /assets
+    ├── /assets
     |    ├── /images
     |    ├── /font
     |    ├── /videos
-    | /css
-    |    ├── reset.css
-    |    ├── grid.css
-    | /includes
-    |    ├── /template
-    |    ├── /content
-    |    ├── mixins.jade
-    |    ├── data.jade
-    |    ├── var.jade
-    | /sass
+    ├── /css
+    |    ├── app.css
+    ├── /jade
+    |    ├── /helpers
+    |    |    ├── data.jade
+    |    |    ├── mixins.jade
+    |    |    ├── var.jade
+    |    ├── /layout
+    |    |    ├── nav.jade
+    |    |    ├── header.jade
+    |    |    ├── footer.jade
+    ├── /sass
     |    ├── app.sass
-    |    ├── /sections
-    |    ├── /includes
-    |    |    ├── var.sass
-    |    |    ├── mixins.sass
-    |    |    ├── import.sass
-    |    |    ├── base.sass
-    |    |    ├── animations.sass
-    |    |    ├── buttons.sass
-    |    |    ├── blocks.sass
-    |    |    ├── font.sass
-    | /scripts
-    |    ├── main.js
+    |    ├── /components
+    |    |    ├── _blocks.sass
+    |    |    ├── _buttons.sass
+    |    |    ├── _form.sass
+    |    ├── /helpers
+    |    |    ├── _var.sass
+    |    |    ├── _mixins.sass
+    |    |    ├── _grid.sass
+    |    |    ├── _reset.sass
+    |    |    ├── _mediaqueries.sass
+    |    |    ├── _font.sass
+    |    ├── /layout
+    |    |    ├── _nav.sass
+    |    |    ├── _header.sass
+    |    |    ├── _footer.sass
+    ├── /scripts
+    |    ├── /js
+    |    |    ├── main.js
 ```
